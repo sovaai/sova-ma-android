@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SOVA"</string>
+    <string name="title_activity_settings">"Настройки"</string>
+    <string name="preference_general_category">"Основные"</string>
+    <string name="preference_language_select_title">"Язык"</string>
+    <string name="preference_dark_theme">"Темная тема"</string>
+    <string name="preference_support_category">"Техническая поддержка"</string>
+    <string name="preference_send_log">"Отправить историю чатов"</string>
+    <string name="preference_tech_support">"Напишите нам"</string>
+    <string name="preference_about">"O приложении"</string>
+    <string name="preference_clear_all">"Очистить историю и кеш"</string>
+    <string name="preference_clear_all_summary">"Это действие удалит данные из хранилища устройства"</string>
+    <string name="preference_send_log_summary">"Отправить историю переписки с чат-ботом на Email"</string>
+    <string name="preference_tech_support_summary">"Написать в службу тех. поддержки"</string>
+    <string name="preference_about_summary">"Информация о приложении"</string>
+    <string name="preference_voice_assistant">"Голосовые Помощники"</string>
+    <string name="preference_clear_all_confirm_message">"Вы уверены, что хотите очистить историю и кеш?"</string>
+    <string name="tech_support_email_subject">"Сообщите нам о проблеме"</string>
+    <string name="app_name_sova">"SOVA"</string>
+    <string name="about_app_version">"Версия"</string>
+    <string name="about_app_agreement">"Политика конфиденциальности"</string>
+    <string name="about_app_email">"Email"</string>
+    <string name="preference_send_log_ok">"Отправить историю чатов"</string>
+    <string name="preference_send_log_message">"Введите Email для отправки истории чатов"</string>
+    <string name="voice_input_content_description">"Голосовой ввод"</string>
+    <string name="btn_settings_content_description">"Настройки"</string>
+    <string name="btn_keyboard_input_content_description">"Ввод с клавиатуры"</string>
+    <string name="btn_add_attachment_content_description">"Добавить файл"</string>
+    <string name="btn_message_input_content_description">"Введите свое сообщение"</string>
+    <string name="voice_record_toast">"Нажмите и удерживайте для записи"</string>
+    <string name="preference_add_assistant">"Добавить Помощника"</string>
+    <string name="preference_assistant_dialog_name">"Имя Помощника"</string>
+    <string name="preference_assistant_dialog_api_url">API URL</string>
+    <string name="preference_assistant_dialog_token">UUID</string>
+    <string name="preference_assistant_dialog_cancel">"Отмена"</string>
+    <string name="preference_assistant_dialog_listen_word">"Голосовые команды"</string>
+    <string name="preference_assistant_edit_dialog_title">"Изменить Помощника"</string>
+    <string name="preference_assistant_edit_dialog_ok">"Сохранить"</string>
+    <string name="preference_assistant_create_dialog_title">"Новый Помощник"</string>
+    <string name="preference_assistant_create_dialog_ok">"Создать"</string>
+    <string name="preference_dark_mode_auto">"Автоматически"</string>
+    <string name="preference_dark_mode_always_on">"Включено"</string>
+    <string name="preference_dark_mode_always_off">"Отключено"</string>
+    <string name="preference_download_log">"Загрузить историю чатов"</string>
+    <string name="preference_download_log_summary">"Отправить историю переписки с чат-ботом на Email"</string>
+    <string name="preference_download_log_message">"Введите Email для отправки истории чатов"</string>
+    <string name="recognize_failed">"Oшибка распознавания голоса"</string>
+    <string name="error_worker_timeout">"Время ожидания истекло"</string>
+    <string name="error_worker_system_error">"Системная ошибка"</string>
+    <string name="error_worker_empty_response">"Пустой ответ"</string>
+    <string name="error_worker_wrong_response">"Неверный ответ от сервера"</string>
+    <string name="error_worker_cannot_connect">"Невозможно подключиться к серверу"</string>
+    <string name="voicing_failed">"Ошибка воспроизведения голосового ответа"</string>
+    <string name="error_mainactivity_not_connected">"Нет соединения с интернетом"</string>
+    <string name="checkbox_agree_with_terms">Я согласен с условиями Политики конфиденциальности</string>
+    <string name="agreement_title">Политика конфиденциальности</string>
+    <string name="preference_selected_assistant">Голосовой помощник</string>
+    <string name="assistant_dialog_delete_contact_title">Вы действительно хотите удалить помощника?</string>
+    <string name="assistant_dialog_delete_contact_message">Пожалуйста, подтвердите удаление голосового помощника</string>
+    <string name="assistant_dialog_delete_contact_btn_cancel">Отмена</string>
+    <string name="assistant_dialog_delete_contact_btn_delete">Удалить</string>
+    <string name="preference_assistant_edit_dialog_must_be_not_empty">Должно быть не пустое</string>
+    <string name="sova_about_descr">Приложение для iOS и Android посредством которого Пользователь получает возможность делать голосовые и текстовые запросы к виртуальным ассистентам, созданным с помощью программного обеспечения SOVA. Подробная информация о SOVA и наших продуктах доступна на сайте <a href="https://sova.ai">SOVA.ai</a>.</string>
+    <string name="sova_about_license">SOVA Mobile Application распространяется под лицензией <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>. Ознакомиться с исходным кодом приложения можно в нашем репозитории на GitHub.</string>
+    <string name="sova_about_license_url">https://dev.sova.ai/static/288a1f7b0e04cb0df492ddfb58b8e114/Policy-RU.pdf</string>
+</resources>

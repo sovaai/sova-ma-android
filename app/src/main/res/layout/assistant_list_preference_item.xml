@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:descendantFocusability="blocksDescendants">
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/listPreferredItemHeightSmall"
+        android:gravity="start|center_vertical"
+        android:textAlignment="viewStart"
+        tools:text="@tools:sample/lorem"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingStart="20dp"
+        android:paddingEnd="?attr/dialogPreferredPadding"
+        app:drawableLeftCompat="?android:attr/listChoiceIndicatorSingle"
+        app:drawableStartCompat="?android:attr/listChoiceIndicatorSingle"
+        android:drawablePadding="20dp"
+        android:ellipsize="marquee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/btnEditAssistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_edit_24"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnDeleteAssistant"/>
+
+    <ImageButton
+        android:id="@+id/btnDeleteAssistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:tint="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_delete_forever_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

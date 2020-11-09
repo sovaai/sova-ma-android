@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agreement_text">
+This Privacy Policy explains how we use data about our users and their devices collected by our apps. Please make sure you read and understand our privacy practices and let us know if you have any questions.\n
+\n
+By using the Services of OOO Virtualnye Assistenty (Virtual Assistants, LLC) the User fully and unconditionally accepts this Policy and the terms of personal data processing defined herein; if you do not agree to these terms of use, please refrain from using the Services.\n
+\n
+1. Data We May Collect From Your Mobile Device\n
+\n
+The mobile app stores the virtual assistant settings and chat history on the User’s device as well as sends the User’s voice recordings made with the mic and text messages to the server for processing.\n
+\n
+The User connects the virtual assistant to the app. Within its operating logic/knowledge-base, the virtual assistant may request any information from the User who activated the bot. We cannot control this process as we only provide the client app.\n
+\n
+Other information is the information that does not disclose the user\'s identity, neither by itself nor in combination with any other information we have obtained. Specifically, such information includes user device information, app usage data or geolocation data, device brand, model, and operating system, screen size, language settings, time spent on the app, and in-app actions (clicks).\n
+\n
+In addition, within our apps we may conduct supplementary surveys where we ask you to give your opinion about various products and services.\n
+\n
+2. How We Use the Obtained Data\n
+\n
+Personal data collected from electronic registration forms is used:\n
+• for user registration;\n
+• for maintenance and upgrading of the app;\n
+• for monitoring of compliance with the policy and collection of app usage statistics;\n
+• and for the purposes agreed to by the app User.\n
+\n
+Additionally, we can use personal data to communicate with the User. For instance, if our app support team receives a message from you, we may use your personal data to respond.\n
+\n
+We also use personal data to inform you about any significant changes to this Privacy Policy.\n
+\n
+We sometimes ask users to provide their personal data by filling out surveys and questionnaires. Your participation in these surveys and forms is completely voluntary, so the User can decide whether they want to disclose the requested information.\n
+\n
+In addition to other purposes outlined in this Policy, your contact information from our surveys and questionnaires is used to inform you of the results of such surveys or questionnaires.\n
+\n
+3. Disclosure of Personal Information\n
+\n
+We may use or disclose your personal information, if we believe such disclosure is necessary in order to comply with applicable law or enforce a judgment, to protect our rights or property, to protect personal safety of our users or the public, in connection with an investigation of illegal or alleged illegal activity, in connection with corporate transactions, such as divestiture, merger, consolidation, sale of assets, or in the unlikely case of bankruptcy, or for other purposes agreed to by the User.\n
+\n
+The company service reserves the right to provide personal data of the User in case of a lawful request by the authorities or in case of violation of any terms of the User Agreement. We may disclose the content of any messages or requests, but we will not post or publish the User’s personal information. With the exception of cases specified herein, we will not share such information with third parties without your consent.\n
+\n
+We do not sell, rent, or lease our user lists to third parties and will not disclose their email address to any third parties.\n
+\n
+4. Data Protection and Storage\n
+\n
+We take measures to protect your personal data. These include processes and procedures to mitigate risks of unauthorized access to or disclosure of your personal information. Nonetheless, we cannot guarantee against the risk of abuse or misuse of your personal information by offenders.\n
+\n
+Please keep your passwords in a safe place and do not disclose them to third parties. If you become aware of any unauthorized use of your password or any security breach, please notify us immediately.\n
+\n
+Our company uses its own server capacities as well as Amazon Web Services for operation of software and data channels and other resources necessary for such operation.\n
+\n
+Although the Company Service owns the software and databases for software operation, the Users still hold the rights to their data.\n
+\n
+5. Changes to this Privacy Statement\n
+\n
+We reserve the right to change or amend this Privacy Policy or any portions hereof at any time at our sole discretion.\n
+\n
+Please make sure to check this Privacy Policy periodically for changes to stay informed of how we use and protect your personal data.\n
+\n
+The following terms apply to all current and future users of the applications developed by our company. By using these mobile applications, the user (the end client) agrees to these terms. We reserve the right to change these terms and instructions.\n
+\n
+6. Contact Information\n
+\n
+If you have any questions, please contact our customer service at support@sova.ai.\n
+</string>
+</resources>

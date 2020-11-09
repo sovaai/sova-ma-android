@@ -1,0 +1,34 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Settings" parent="AppTheme">
+        <!--<item name="actionBarStyle">@style/AppTheme.Settings.ActionBarStyle</item>
+        <item name="android:actionBarStyle">@style/AppTheme.Settings.ActionBarStyle</item>-->
+    </style>
+
+    <style name="AppTheme.Settings.ActionBarStyle">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="titleTextStyle">@style/AppTheme.Settings.Title</item>
+        <item name="android:titleTextStyle">@style/AppTheme.Settings.Title</item>
+    </style>
+
+    <style name="AppTheme.Settings.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:background">#ff9900</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+</resources>

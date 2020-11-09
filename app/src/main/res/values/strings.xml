@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SOVA"</string>
+    <string name="title_activity_settings">"Settings"</string>
+    <string name="preference_general_category">"General"</string>
+    <string name="preference_language_select_title">"Language"</string>
+    <string name="preference_dark_theme">"Dark Theme"</string>
+    <string name="preference_support_category">"Technical Support"</string>
+    <string name="preference_send_log">"Send chat history"</string>
+    <string name="preference_tech_support">"Contact Us"</string>
+    <string name="preference_about">"About"</string>
+    <string name="preference_clear_all">"Clear history and cache"</string>
+    <string name="preference_clear_all_summary">"This action will clear all data from device storage"</string>
+    <string name="preference_send_log_summary">"Send Assistant chat history to Email"</string>
+    <string name="preference_tech_support_summary">"Email Technical Support"</string>
+    <string name="preference_about_summary">"App Information"</string>
+    <string name="preference_voice_assistant">"Voice Assistants"</string>
+    <string name="preference_clear_all_confirm_message">"Are you sure you want to clear history and cache?"</string>
+    <string name="tech_support_email_subject">"Report a Problem"</string>
+    <string name="app_name_sova">"SOVA"</string>
+    <string name="about_app_version">"Version"</string>
+    <string name="about_app_agreement">"Privacy Policy"</string>
+    <string name="about_app_email">"Email"</string>
+    <string name="preference_send_log_ok">"Send chat history"</string>
+    <string name="preference_send_log_message">"Enter Email to send chat history"</string>
+    <string name="voice_input_content_description">"Voice Input"</string>
+    <string name="btn_settings_content_description">"Settings"</string>
+    <string name="btn_keyboard_input_content_description">"Keyboard Input"</string>
+    <string name="btn_add_attachment_content_description">"Add Attachment"</string>
+    <string name="btn_message_input_content_description">"Enter your message"</string>
+    <string name="voice_record_toast">"Tap and hold to record"</string>
+    <string name="preference_add_assistant">"Add Assistant"</string>
+    <string name="preference_assistant_dialog_name">"Assistant Name"</string>
+    <string name="preference_assistant_dialog_api_url">"API URL"</string>
+    <string name="preference_assistant_dialog_token">UUID</string>
+    <string name="preference_assistant_dialog_cancel">"Cancel"</string>
+    <string name="preference_assistant_dialog_listen_word">"Enable Voice Command"</string>
+    <string name="preference_assistant_edit_dialog_title">"Edit Assistant"</string>
+    <string name="preference_assistant_edit_dialog_ok">"Save"</string>
+    <string name="preference_assistant_create_dialog_title">"New Assistant"</string>
+    <string name="preference_assistant_create_dialog_ok">"Create"</string>
+    <string name="preference_dark_mode_auto">"Automatic"</string>
+    <string name="preference_dark_mode_always_on">"Enabled"</string>
+    <string name="preference_dark_mode_always_off">"Disabled"</string>
+    <string name="preference_download_log">"Download chat history"</string>
+    <string name="preference_download_log_summary">"Send Assistant chat history to Email"</string>
+    <string name="preference_download_log_message">"Enter Email to send chat history"</string>
+    <string name="preference_support_email" translatable="false">support@sova.ai</string>
+    <string name="recognize_failed">"Voice recognition failed"</string>
+    <string name="error_worker_timeout">"Connect timeout"</string>
+    <string name="error_worker_system_error">"System error"</string>
+    <string name="error_worker_empty_response">"Empty response"</string>
+    <string name="error_worker_wrong_response">"Wrong response from server"</string>
+    <string name="error_worker_cannot_connect">"Cannot connect to server"</string>
+    <string name="voicing_failed">"Voice Assistant response playback error"</string>
+    <string name="error_mainactivity_not_connected">"Not connected to Internet"</string>
+    <string name="checkbox_agree_with_terms">I accept Privacy Policy</string>
+    <string name="agreement_title">Privacy Policy</string>
+    <string name="preference_selected_assistant">Assistant</string>
+    <string name="assistant_dialog_delete_contact_title">Do you really want to delete assistant?</string>
+    <string name="assistant_dialog_delete_contact_message">Please confirm assistant removing.</string>
+    <string name="assistant_dialog_delete_contact_btn_cancel">Cancel</string>
+    <string name="assistant_dialog_delete_contact_btn_delete">Delete</string>
+    <string name="preference_assistant_edit_dialog_must_be_not_empty">Must be not empty</string>
+    <string name="sova_about_title" translatable="false">SOVA Mobile Application</string>
+    <string name="sova_about_descr">Application for iOS and Android designed to send voice and text requests to virtual assistants created with the SOVA software.  Detailed information about SOVA and other products is available on the <a href="https://sova.ai">SOVA.ai</a> website.</string>
+    <string name="sova_about_license">SOVA Mobile Application is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.  To view the application source code visit our repository on GitHub.</string>
+    <string name="sova_about_license_url">https://dev.sova.ai/static/288a1f7b0e04cb0df492ddfb58b8e114/Policy-EN.pdf</string>
+</resources>

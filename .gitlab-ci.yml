@@ -1,0 +1,45 @@
+image: jangrewe/gitlab-ci-android:29
+
+before_script:
+  - export GRADLE_USER_HOME=$(pwd)/.gradle
+  - chmod +x ./gradlew
+
+stages:
+  - release
+  - deploy
+
+assembleRelease:
+  stage: release
+  only:
+    refs:
+      - master
+  script:
+    - echo $KEYSTORE_FILE | base64 -d > app/sova.jks
+    - ./gradlew assemble
+    - mv app/build/outputs/apk/release/*.* .
+  artifacts:
+    paths:
+      - ./*.apk
+      - ./output-metadata.json
+
+deployToOsmino:
+  stage: deploy
+  when: manual
+  only:
+    refs:
+      - master
+  image: ubuntu:18.04
+  variables:
+    # We do not need GitLab to clone the source code.
+    GIT_STRATEGY: none
+  cache: {}    
+  before_script:
+    - apt-get update -qy
+    - apt-get install -y lftp
+    - apt-get install -y jq
+    - apt-get install -y python-pip
+  script:
+    - 'jq ".elements[0] | {package: \"com.osmino.sova\", icon: \"Logo.png\", file: .outputFile, versionCode: .versionCode, versionName: .versionName, date: now|strftime(\"%Y%d%m%H%M\")}" output-metadata.json > APP.SOVA.info'
+    - lftp -e "open ftp.riww.ru; user $FTP_USERNAME $FTP_PASSWORD; mput APP.SOVA.info; mput -O APP.SOVA sova*.apk; bye;"
+  dependencies:
+    - assembleRelease

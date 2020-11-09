@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#386FFE</color>
+    <color name="colorPrimaryDark">#151F49</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="window_background">#0D1539</color>
+    <color name="pink">#FC2D81</color>
+    <color name="btn_voice_input">#212A54</color>
+    <color name="mic_primary">@color/pink</color>
+    <color name="tapbar_second_btn">@color/white</color>
+    <color name="btn_send_text">@color/colorPrimary</color>
+    <color name="bubble_in">#151F49</color>
+    <color name="bubble_in_text">@color/white</color>
+    <color name="bubble_out">@color/colorPrimary</color>
+    <color name="bubble_out_text">@color/white</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".preference.AddEditAssistantFragment">
+
+    <EditText
+        android:id="@+id/assistant_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/preference_assistant_dialog_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/assistant_api_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/preference_assistant_dialog_api_url"
+        android:inputType="textUri" />
+
+    <EditText
+        android:id="@+id/assistant_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/preference_assistant_dialog_token"
+        android:inputType="text" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/assistant_listen_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/preference_assistant_dialog_listen_word"
+        tools:visibility="gone" />
+
+</LinearLayout>
+

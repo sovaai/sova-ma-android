@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="dark_mode_names">
+        <item>@string/preference_dark_mode_auto</item>
+        <item>@string/preference_dark_mode_always_on</item>
+        <item>@string/preference_dark_mode_always_off</item>
+    </string-array>
+
+    <string-array name="dark_mode_values">
+        <item>auto</item>
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652648034460",
+    "firebase_url": "https://blabla-owl.firebaseio.com",
+    "project_id": "blabla-owl",
+    "storage_bucket": "blabla-owl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652648034460:android:c1d9994a6943a1fa79bd59",
+        "android_client_info": {
+          "package_name": "com.osmino.sova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652648034460-elkv9k361jq7t03omvh9r4fp6ptgn7gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx9u0XCSRfFIW98q2n0a5KxfwAmF2f2yE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652648034460-elkv9k361jq7t03omvh9r4fp6ptgn7gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

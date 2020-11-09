@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/preference_voice_assistant" android:key="preference_va">
+        <ListPreference
+            android:key="preference_assistant"
+            android:title="@string/preference_selected_assistant"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            android:key="preference_add_assistant"
+            android:title="@string/preference_add_assistant"
+            android:icon="@drawable/ic_add" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_general_category">
+<!--        <ListPreference-->
+<!--            android:defaultValue="auto"-->
+<!--            android:entries="@array/dark_mode_names"-->
+<!--            android:entryValues="@array/dark_mode_values"-->
+<!--            android:key="preference_dark_mode"-->
+<!--            android:title="@string/preference_dark_theme"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+        <Preference
+            app:key="preference_clear_all"
+            app:title="@string/preference_clear_all"
+            app:summary="@string/preference_clear_all_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_support_category">
+        <Preference
+            android:key="preference_download_log"
+            android:title="@string/preference_download_log"
+            android:summary="@string/preference_download_log_summary"
+            android:dialogMessage="@string/preference_download_log_message"
+            android:inputType="textEmailAddress"
+            android:positiveButtonText="@string/preference_send_log_ok"/>
+
+        <Preference
+            android:key="preference_send_email_to_support"
+            android:title="@string/preference_tech_support"
+            android:summary="@string/preference_tech_support_summary"/>
+
+        <Preference
+            android:key="preference_about_application"
+            android:title="@string/preference_about"
+            android:summary="@string/preference_about_summary"
+            app:fragment="com.osmino.sova.preference.AboutFragment"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

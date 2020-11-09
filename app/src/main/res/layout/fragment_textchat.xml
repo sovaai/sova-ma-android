@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.textChat.TextChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <com.osmino.sova.ui.ChatMessagesList
+            android:id="@+id/messagesListNew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+
+            app:textAutoLink="none"
+
+            app:incomingDefaultBubbleColor="@color/bubble_in"
+            app:incomingTextColor="@color/bubble_in_text"
+            app:incomingTextLinkColor="@color/blue"
+            app:incomingTextSize="@dimen/bubble_text_size"
+
+            app:outcomingDefaultBubbleColor="@color/bubble_out"
+            app:outcomingTextColor="@color/bubble_out_text"
+            app:outcomingTextLinkColor="@color/blue"
+            app:outcomingTextSize="@dimen/bubble_text_size" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
